@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  h2{
+    font-size:2.5rem
+  }
+  
+  .outcome {
+    margin-top: 20px;
+  }
+
+
+.rock{
+    background-image: url(../images/rock.png);
+}
+
+button img{
+    border: none;
+}
+.buttons button{
+    cursor:pointer;
+}
+
+.buttons button:hover{
+    background-color:red;
+}
+  
